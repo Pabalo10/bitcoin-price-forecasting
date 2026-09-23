@@ -1,0 +1,31 @@
+# Entorno virtual
+.venv/
+.python-version
+
+# Configuración de IDEs
+.idea/
+.vscode/
+
+.Rhistory
+
+# Cachés de Python
+__pycache__/
+
+# Archivos de distribución (generados por build)
+dist/
+build/
+*.egg-info/
+src/c2425_r6.egg-info/
+
+# MLflow: directorio de logs y 4 modelos
+**/mlruns/
+
+# Datos generados o procesados
+data/extraccion/
+data/limpieza/
+data/parquet/
+data/nuevos/
+data/parquet nuevos/
+
+# Jupyter notebooks
+.ipynb_checkpoints/

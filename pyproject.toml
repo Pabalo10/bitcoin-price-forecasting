@@ -1,0 +1,44 @@
+[project]
+name = "c2425-r6"
+version = "0.1.0"
+description = "Analisis de tendencia del bitcoin"
+readme = "README.md"
+requires-python = "==3.10.*"
+dependencies = [
+    "argparse>=1.4.0",
+    "ipykernel>=6.29.5",
+    "jupyter-client>=8.6.3",
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.10.1",
+    "missingno>=0.5.2",
+    "mlflow>=2.21.3",
+    "nbconvert>=7.16.6",
+    "numpy>=2.2.4",
+    "pandas>=2.2.3",
+    "pathlib>=1.0.1",
+    "pyarrow>=19.0.1",
+    "pytrends>=4.9.2",
+    "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "selenium>=4.31.0",
+    "statsmodels>=0.14.4",
+    "textblob>=0.19.0",
+    "torch>=2.6.0",
+    "tweepy>=4.15.0",
+    "webdriver-manager>=4.0.2",
+    "xgboost>=3.0.0",
+    "yfinance>=0.2.55",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = [
+    "utils",
+    "utils.arquitecturas",
+    "utils.modelos_sklearn"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
