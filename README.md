@@ -4,7 +4,7 @@
 # Descripción de los objetivos.
 El proyecto consiste en un sistema de **predicción de tendencias de Bitcoin a través de su porcentaje de cambio sobre el precio de cierre**, que permite analizar los movimientos del mercado y prever posibles fluctuaciones en el precio de la criptomoneda. Para ello, se utilizan datos en tiempo real, junto con modelos de análisis de datos.
 
-El objetivo principal es predecir la tendencia de Bitcoin en base a los datos históricos, patrones y a la evolución de la moneda utilizando técnicas de aprendizaje automático
+El objetivo principal es predecir la tendencia de Bitcoin en base a los datos históricos, patrones y a la evolución de la moneda utilizando técnicas de aprendizaje automático. (Proyecto Universitario)
 # Estructura del repositorio
 
 ```
@@ -193,5 +193,6 @@ Pablo Alonso
 Rosa Gómez-Gil    
 Ignacio Ramírez    
 Daniel Higueras    
-Vega García   
+Vega García
+
 
